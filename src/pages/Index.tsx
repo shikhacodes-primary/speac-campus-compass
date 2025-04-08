@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-speac-lightPurple to-white pt-16 pb-32">
+      <section className="relative bg-gradient-to-b from-speac-blue/30 to-white pt-16 pb-32">
         <div className="section-padding flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="heading-xl mb-6">
