@@ -65,6 +65,7 @@ export default {
 				},
 				// Custom SPEAC colors
 				speac: {
+					brand: '#44ffc2', // New brand color
 					purple: '#9B87F5',
 					blue: '#D3E4FD',
 					lightPurple: '#E5DEFF',

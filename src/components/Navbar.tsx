@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Shield, MessageCircle, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,10 +33,11 @@ const Navbar = () => {
     >
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto flex justify-between items-center">
         <NavLink to="/" className="flex items-center gap-2">
-          <div className="flex items-center justify-center w-10 h-10 bg-speac-purple rounded-full">
-            <Shield className="w-5 h-5 text-white" />
-            <MessageCircle className="w-5 h-5 text-white absolute ml-2 mt-0.5" />
-          </div>
+          <img 
+            src="/lovable-uploads/1918634a-8acc-40ab-bc0d-285848941994.png" 
+            alt="SPEAC Logo" 
+            className="w-10 h-10"
+          />
           <span className="font-poppins font-semibold text-xl">SPEAC</span>
         </NavLink>
 
@@ -45,7 +46,7 @@ const Navbar = () => {
           <NavLink 
             to="/" 
             className={({ isActive }) => 
-              `font-medium transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+              `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
             }
           >
             Home
@@ -53,7 +54,7 @@ const Navbar = () => {
           <NavLink 
             to="/problem" 
             className={({ isActive }) => 
-              `font-medium transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+              `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
             }
           >
             The Problem
@@ -61,7 +62,7 @@ const Navbar = () => {
           <NavLink 
             to="/solution" 
             className={({ isActive }) => 
-              `font-medium transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+              `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
             }
           >
             Our Solution
@@ -69,7 +70,7 @@ const Navbar = () => {
           <NavLink 
             to="/chatbot" 
             className={({ isActive }) => 
-              `font-medium transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+              `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
             }
           >
             Live Chatbot
@@ -77,7 +78,7 @@ const Navbar = () => {
           <NavLink 
             to="/impact" 
             className={({ isActive }) => 
-              `font-medium transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+              `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
             }
           >
             Partners & Impact
@@ -85,7 +86,7 @@ const Navbar = () => {
           <NavLink 
             to="/join" 
             className={({ isActive }) => 
-              `font-medium transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+              `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
             }
           >
             Join Us
@@ -93,7 +94,7 @@ const Navbar = () => {
           <NavLink 
             to="/contact" 
             className={({ isActive }) => 
-              `font-medium transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+              `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
             }
           >
             Contact
@@ -121,7 +122,7 @@ const Navbar = () => {
               to="/" 
               onClick={() => setIsOpen(false)}
               className={({ isActive }) => 
-                `font-medium text-xl transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+                `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
               }
             >
               Home
@@ -130,7 +131,7 @@ const Navbar = () => {
               to="/problem" 
               onClick={() => setIsOpen(false)}
               className={({ isActive }) => 
-                `font-medium text-xl transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+                `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
               }
             >
               The Problem
@@ -139,7 +140,7 @@ const Navbar = () => {
               to="/solution" 
               onClick={() => setIsOpen(false)}
               className={({ isActive }) => 
-                `font-medium text-xl transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+                `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
               }
             >
               Our Solution
@@ -148,7 +149,7 @@ const Navbar = () => {
               to="/chatbot" 
               onClick={() => setIsOpen(false)}
               className={({ isActive }) => 
-                `font-medium text-xl transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+                `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
               }
             >
               Live Chatbot
@@ -157,7 +158,7 @@ const Navbar = () => {
               to="/impact" 
               onClick={() => setIsOpen(false)}
               className={({ isActive }) => 
-                `font-medium text-xl transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+                `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
               }
             >
               Partners & Impact
@@ -166,7 +167,7 @@ const Navbar = () => {
               to="/join" 
               onClick={() => setIsOpen(false)}
               className={({ isActive }) => 
-                `font-medium text-xl transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+                `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
               }
             >
               Join Us
@@ -175,7 +176,7 @@ const Navbar = () => {
               to="/contact" 
               onClick={() => setIsOpen(false)}
               className={({ isActive }) => 
-                `font-medium text-xl transition-colors ${isActive ? 'text-speac-purple' : 'hover:text-speac-purple'}`
+                `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
               }
             >
               Contact
