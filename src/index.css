@@ -69,7 +69,7 @@
   }
   
   .text-gradient {
-    @apply bg-gradient-to-r from-speac-brand to-speac-blue bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-speac-brand to-teal-600 bg-clip-text text-transparent font-bold;
   }
   
   .speac-card {
