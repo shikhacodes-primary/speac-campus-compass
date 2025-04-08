@@ -10,7 +10,7 @@ const FloatingChatButton = () => {
     <div className="fixed bottom-6 right-6 z-50 flex items-center">
       {isHovered && (
         <div className="mr-3 bg-white py-2 px-4 rounded-full shadow-lg animate-fade-in">
-          <p className="font-medium">Chat Now - We're Here to Help</p>
+          <p className="font-medium">Talk to AJ</p>
         </div>
       )}
       

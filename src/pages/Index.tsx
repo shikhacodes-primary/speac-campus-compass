@@ -12,24 +12,14 @@ const Home = () => {
         <div className="section-padding flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="heading-xl mb-6">
-              <span className="text-gradient">Mental health support</span> for every college student
+              <span className="text-gradient">You're not alone.</span> And you don't have to go through this alone.
             </h1>
             <p className="text-lg mb-8 text-muted-foreground max-w-2xl mx-auto lg:mx-0">
-              It's free and will always be.
-              We're here to support you with whatever you're going through.
-            </p>
-            <p className="text-lg mb-8 text-muted-foreground max-w-2xl mx-auto lg:mx-0">
-              At SPEAC, we provide free, confidential counseling and therapy because we believe every student deserves access to mental health support in a safe, understanding environment. Whether you're navigating stress, anxiety, or other challenges, we're here to listen.
-            </p>
-            <p className="text-lg mb-8 text-muted-foreground max-w-2xl mx-auto lg:mx-0">
-              We also stand firmly for students' rights, offering guidance and advocacy to ensure you are treated fairly. Don't hesitate to reach out — we're here to help.
+              Free, confidential counseling and support — made for students, by students.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Link to="/solution" className="speac-button-primary">
-                Explore Our Solution
-              </Link>
-              <Link to="/chatbot" className="speac-button-secondary">
-                Try Our Chatbot
+              <Link to="/chatbot" className="speac-button-primary">
+                Talk to AJ
               </Link>
             </div>
           </div>
@@ -129,31 +119,6 @@ const Home = () => {
               >
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Testimonial Section */}
-      <section className="py-16">
-        <div className="section-padding">
-          <div className="text-center mb-16">
-            <h2 className="heading-lg mb-4">Voices of Change</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Hear from students who have benefited from SPEAC's services.
-            </p>
-          </div>
-          
-          <div className="speac-card bg-gradient-to-r from-speac-brand/10 to-speac-blue/10 p-8 md:p-12 max-w-4xl mx-auto">
-            <p className="text-xl mb-6 italic">
-              "Before finding SPEAC, I felt completely alone with my anxiety. The campus counseling desk gave me a safe place to talk, and the AI chatbot has been there for me during late nights when things get rough. I'm finally feeling hopeful about my future."
-            </p>
-            <div className="flex items-center">
-              <div className="w-12 h-12 bg-speac-brand rounded-full mr-4"></div>
-              <div>
-                <div className="font-semibold">Sarah J.</div>
-                <div className="text-sm text-muted-foreground">Junior, Psychology Major</div>
-              </div>
             </div>
           </div>
         </div>
