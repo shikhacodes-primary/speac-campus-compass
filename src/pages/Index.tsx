@@ -33,8 +33,8 @@ const Home = () => {
           
           <div className="flex-1">
             <img 
-              src="/lovable-uploads/photo-1517022812141-23620dba5c23" 
-              alt="Students walking together" 
+              src="/lovable-uploads/83a348e0-fc5d-4266-9347-fdd0b8e428c4.png" 
+              alt="Counseling session illustration" 
               className="rounded-2xl shadow-lg w-full max-w-xl mx-auto animate-float"
             />
           </div>
