@@ -8,7 +8,6 @@ import Home from "./pages/Index";
 import Problem from "./pages/Problem";
 import Solution from "./pages/Solution";
 import Chatbot from "./pages/Chatbot";
-import Impact from "./pages/Impact";
 import Join from "./pages/Join";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -26,7 +25,6 @@ const App = () => (
           <Route path="/problem" element={<Problem />} />
           <Route path="/solution" element={<Solution />} />
           <Route path="/chatbot" element={<Chatbot />} />
-          <Route path="/impact" element={<Impact />} />
           <Route path="/join" element={<Join />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />

@@ -35,10 +35,10 @@ const Navbar = () => {
         <NavLink to="/" className="flex items-center gap-2">
           <img 
             src="/lovable-uploads/1918634a-8acc-40ab-bc0d-285848941994.png" 
-            alt="SPEAC Logo" 
-            className="w-10 h-10"
+            alt="speac Logo" 
+            className="w-10 h-10 rounded-full"
           />
-          <span className="font-poppins font-semibold text-xl">SPEAC</span>
+          <span className="font-poppins font-semibold text-xl">speac</span>
         </NavLink>
 
         {/* Desktop menu */}
@@ -73,23 +73,7 @@ const Navbar = () => {
               `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
             }
           >
-            Live Chatbot
-          </NavLink>
-          <NavLink 
-            to="/impact" 
-            className={({ isActive }) => 
-              `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
-            }
-          >
-            Partners & Impact
-          </NavLink>
-          <NavLink 
-            to="/join" 
-            className={({ isActive }) => 
-              `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
-            }
-          >
-            Join Us
+            Talk to AJ
           </NavLink>
           <NavLink 
             to="/contact" 
@@ -152,25 +136,7 @@ const Navbar = () => {
                 `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
               }
             >
-              Live Chatbot
-            </NavLink>
-            <NavLink 
-              to="/impact" 
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) => 
-                `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
-              }
-            >
-              Partners & Impact
-            </NavLink>
-            <NavLink 
-              to="/join" 
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) => 
-                `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
-              }
-            >
-              Join Us
+              Talk to AJ
             </NavLink>
             <NavLink 
               to="/contact" 

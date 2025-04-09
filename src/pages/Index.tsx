@@ -2,7 +2,6 @@
 import { ArrowRight, Shield, MessageCircle, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
-import { Button } from '@/components/ui/button';
 
 const Home = () => {
   return (
@@ -21,13 +20,21 @@ const Home = () => {
               <Link to="/chatbot" className="speac-button-primary">
                 Talk to AJ
               </Link>
+              <a 
+                href="https://calendar.app.google/7BgoJouSMT82Wjd17" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="speac-button-secondary"
+              >
+                Book free counselling
+              </a>
             </div>
           </div>
           
           <div className="flex-1">
             <img 
-              src="/placeholder.svg" 
-              alt="Diverse group of happy students" 
+              src="/lovable-uploads/photo-1517022812141-23620dba5c23" 
+              alt="Students walking together" 
               className="rounded-2xl shadow-lg w-full max-w-xl mx-auto animate-float"
             />
           </div>
@@ -68,7 +75,7 @@ const Home = () => {
           <div className="text-center mb-16">
             <h2 className="heading-lg mb-4">Our 3-Part Solution</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              SPEAC provides comprehensive mental health support through three interconnected services.
+              speac provides comprehensive mental health support through three interconnected services.
             </p>
           </div>
           
@@ -127,12 +134,12 @@ const Home = () => {
       {/* CTA Section */}
       <section className="py-16 bg-speac-brand text-foreground">
         <div className="section-padding text-center">
-          <h2 className="heading-lg mb-6">Join the Movement for Better Mental Health</h2>
+          <h2 className="heading-lg mb-6">Get speac at your campus</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-            Whether you're a university administrator, mental health professional, or student leader, we need your help to bring SPEAC to more campuses.
+            Whether you're a university administrator, mental health professional, or student leader, we need your help to bring speac to more campuses.
           </p>
-          <Link to="/join" className="bg-white text-speac-brand hover:bg-opacity-90 font-medium py-3 px-8 rounded-full transition-all duration-300 shadow-md hover:shadow-lg inline-block">
-            Get Involved Today
+          <Link to="/contact" className="bg-white text-speac-brand hover:bg-opacity-90 font-medium py-3 px-8 rounded-full transition-all duration-300 shadow-md hover:shadow-lg inline-block">
+            Contact Us
           </Link>
         </div>
       </section>
