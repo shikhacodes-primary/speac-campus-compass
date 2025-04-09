@@ -49,23 +49,7 @@ const Navbar = () => {
               `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
             }
           >
-            Home
-          </NavLink>
-          <NavLink 
-            to="/problem" 
-            className={({ isActive }) => 
-              `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
-            }
-          >
-            The Problem
-          </NavLink>
-          <NavLink 
-            to="/solution" 
-            className={({ isActive }) => 
-              `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
-            }
-          >
-            Our Solution
+            home
           </NavLink>
           <NavLink 
             to="/chatbot" 
@@ -73,7 +57,7 @@ const Navbar = () => {
               `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
             }
           >
-            Talk to AJ
+            talk to aj
           </NavLink>
           <NavLink 
             to="/contact" 
@@ -81,7 +65,7 @@ const Navbar = () => {
               `font-medium transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
             }
           >
-            Contact
+            contact
           </NavLink>
         </div>
 
@@ -109,25 +93,7 @@ const Navbar = () => {
                 `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
               }
             >
-              Home
-            </NavLink>
-            <NavLink 
-              to="/problem" 
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) => 
-                `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
-              }
-            >
-              The Problem
-            </NavLink>
-            <NavLink 
-              to="/solution" 
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) => 
-                `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
-              }
-            >
-              Our Solution
+              home
             </NavLink>
             <NavLink 
               to="/chatbot" 
@@ -136,7 +102,7 @@ const Navbar = () => {
                 `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
               }
             >
-              Talk to AJ
+              talk to aj
             </NavLink>
             <NavLink 
               to="/contact" 
@@ -145,7 +111,7 @@ const Navbar = () => {
                 `font-medium text-xl transition-colors ${isActive ? 'text-speac-brand' : 'hover:text-speac-brand'}`
               }
             >
-              Contact
+              contact
             </NavLink>
           </div>
         </div>
