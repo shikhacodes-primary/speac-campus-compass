@@ -1,6 +1,6 @@
 
 import { ReactNode } from 'react';
-import Navbar from './Navbar';
+import Navbar from './navbar';
 import Footer from './Footer';
 import FloatingChatButton from './FloatingChatButton';
 
