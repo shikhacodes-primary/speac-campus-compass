@@ -1,4 +1,3 @@
-
 import { ArrowRight, Shield, MessageCircle, Users, HeartHandshake, BrainCircuit, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
@@ -17,7 +16,10 @@ const Home = () => {
               free, confidential counseling and support — made for students, by students.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start w-full">
-              <Link to="/chatbot" className="speac-button-primary w-full sm:w-auto text-center">
+              <Link 
+                to="/chatbot" 
+                className="speac-button-primary w-full sm:w-auto text-center"
+              >
                 talk to aj
               </Link>
               <a 
