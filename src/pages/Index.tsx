@@ -1,3 +1,4 @@
+
 import { ArrowRight, Shield, MessageCircle, Users, HeartHandshake, BrainCircuit, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
@@ -18,7 +19,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start w-full">
               <Link 
                 to="/chatbot" 
-                className="speac-button-primary w-full sm:w-auto text-center"
+                className="speac-button-primary w-full sm:w-auto text-center py-3 px-6 rounded-full font-medium hover:opacity-90 transition-all duration-200 inline-block"
               >
                 talk to aj
               </Link>
@@ -26,7 +27,7 @@ const Home = () => {
                 href="https://calendar.app.google/7BgoJouSMT82Wjd17" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="speac-button-secondary w-full sm:w-auto text-center"
+                className="speac-button-secondary w-full sm:w-auto text-center py-3 px-6 rounded-full font-medium hover:opacity-90 transition-all duration-200 inline-block"
               >
                 book free counselling
               </a>
